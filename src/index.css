@@ -6,10 +6,9 @@ body {
   margin: 0;
 }
 
-.App h1 {
-  border: 2px solid black;
-  margin: 10px 500px;
-  white-space: nowrap;
+.App {
+  display: flex;
+  flex-direction: column;
 }
 
 .nav {
@@ -17,7 +16,6 @@ body {
   color: #333;
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 2rem;
   padding: 0 1rem;
 }
