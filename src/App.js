@@ -10,7 +10,7 @@ import Gallery from './pages/Gallery'
 function App() {
   return (
     <div className="App">
-      <h1>Sayuni Investment LLC</h1>
+      <h2 style={{ border: "2px solid black", padding: "5px" }}>Sayuni Investment Inc LLC</h2>
       <Navbar />
       <div className='content'>
         <Routes>
@@ -20,6 +20,9 @@ function App() {
           <Route path='/gallery' element={<Gallery />} />
         </Routes>
       </div>
+      <footer>
+        <p>COPYRIGHT © 2022 SAYUNI INVESTMENT INC LLC - ALL RIGHTS RESERVED.</p>
+      </footer>
     </div>
   );
 }

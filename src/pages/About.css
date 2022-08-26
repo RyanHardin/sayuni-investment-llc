@@ -1,0 +1,63 @@
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-team > p {
+    font-size: large;
+    text-align: center;
+    inline-size: 50%;
+    padding: 25px;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us > img {
+    width: 80%;
+}
+
+.about-us > div {
+    display: flex;
+    flex-direction: column;
+    background-color: #FBF2EB;
+    align-items: center;
+    width: 80%;
+}
+
+.about-us > div > p {
+    color: #858381;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.about-us > div > button {
+    color: white;
+    background-color: #A4865D;
+    font-size: x-large;
+    width: 50%;
+    height: 50%;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.bottom > img {
+    width: 35%;
+}

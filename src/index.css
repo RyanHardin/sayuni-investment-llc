@@ -6,12 +6,16 @@ body {
   margin: 0;
 }
 
-.nav {
-  background-color: #333;
-  color: white;
+.App {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+}
+
+.nav {
+  background-color: white;
+  color: #333;
+  display: flex;
+  justify-content: center;
   gap: 2rem;
   padding: 0 1rem;
 }
@@ -34,9 +38,11 @@ body {
 }
 
 .nav li.active {
-  background-color: #555;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .nav li:hover{
-  background-color: #777;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
