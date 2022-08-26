@@ -39,8 +39,10 @@ body {
 
 .nav li.active {
   text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .nav li:hover{
   text-decoration: underline;
+  text-underline-offset: 5px;
 }

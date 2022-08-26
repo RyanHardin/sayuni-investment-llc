@@ -1,24 +1,42 @@
-.container {
+.home {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 10px;
+    height: 80%;
+    width: 80%;
 }
 
-.container div img {
+.home > div {
+    flex: 1;
+}
+
+.home div img {
     width: 100%;
     height: 100%;
 }
 
 .info-item {
-    background-color: antiquewhite;
+    background-color: #F9F2EC;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.info-item button {
+.info-item > h1 {
+    font-size: 300%;
+}
+
+.info-item > h2 {
+    font-size: 200%;
+}
+
+.info-item > button {
+    color: white;
+    background-color: #A4865D;
+    font-size: large;
     width: 50%;
     height: 10%;
+    letter-spacing: 5px;
 }
