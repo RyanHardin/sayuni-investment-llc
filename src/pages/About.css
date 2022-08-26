@@ -2,3 +2,45 @@
     display: flex;
     flex-direction: column;
 }
+
+.our-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-team > p {
+    text-align: center;
+    inline-size: 35%;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us > img {
+    width: 80%;
+}
+
+.about-us > div {
+    display: flex;
+    flex-direction: column;
+    background-color: #FBF2EB;
+    align-items: center;
+    width: 80%;
+}
+
+.about-us > p {
+    color: #858381;
+}
+
+.about-us > div > button {
+    color: white;
+    background-color: #A4865D;
+    font-size: large;
+    width: 50%;
+    height: 10%;
+    letter-spacing: 5px;
+}
