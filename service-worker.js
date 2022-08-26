@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sayuni-investment-llc/precache-manifest.90be75aade3dfe91a8ca1878b3224b9b.js"
+  "/sayuni-investment-llc/precache-manifest.1a888f2da40a4697d159db458c2c490b.js"
 );
 
 workbox.clientsClaim();
