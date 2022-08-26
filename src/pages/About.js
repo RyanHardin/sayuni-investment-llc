@@ -27,6 +27,10 @@ function About() {
                     <button>Fill out the form and click submit</button>
                 </div>
             </div>
+            <div className='bottom'>
+                <img src={require('../assets/About Photo1.png')} alt="House"></img>
+                <img src={require('../assets/About Photo2.png')} alt="Writing"></img>
+            </div>
         </div>
     )
 }
