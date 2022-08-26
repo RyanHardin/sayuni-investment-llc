@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/sayuni-investment-llc/static/media/About Photo2.3e1e194b.png"
   },
   {
-    "revision": "2f7a1a37d92a6ede308c280df77be873",
+    "revision": "a6b80515b594559ee821fbf4dfeda4d2",
     "url": "/sayuni-investment-llc/index.html"
   }
 ];
