@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "RyanHardin.github.io/sayuni-investment-llc/precache-manifest.900947b337a3631ee6edff3f44e7bd18.js"
+  "/sayuni-investment-llc/precache-manifest.7193da2e0b90a5c908189d63bb8fbfff.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("RyanHardin.github.io/sayuni-investment-llc/index.html", {
+workbox.routing.registerNavigationRoute("/sayuni-investment-llc/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
