@@ -13,7 +13,7 @@ function About() {
                 </p>
             </div>
             <div className='about-us'>
-                <img src={gavel} alt='gavel' style={{ maxWidth: '80%', maxHeight: '600px' }}></img>
+                <img src={gavel} alt='gavel' style={{ maxWidth: '100%', maxHeight: '600px' }}></img>
                 <div>
                     <p>If you are thinking of selling or are looking to sell your property, we can help you get a quick and hassle-free cash offer. We buy multifamily,
                         apartment homes and single-family homes in any condition.

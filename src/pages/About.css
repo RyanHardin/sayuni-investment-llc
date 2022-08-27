@@ -1,6 +1,7 @@
 .about {
     display: flex;
     flex-direction: column;
+    width: 60%;
 }
 
 .our-team {
@@ -23,7 +24,7 @@
 }
 
 .about-us > img {
-    width: 80%;
+    width: 100%;
 }
 
 .about-us > div {
@@ -31,7 +32,7 @@
     flex-direction: column;
     background-color: #FBF2EB;
     align-items: center;
-    width: 80%;
+    width: 100%;
 }
 
 .about-us > div > p {
@@ -54,10 +55,10 @@
 .bottom {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-top: 50px;
 }
 
 .bottom > img {
-    width: 35%;
+    width: 45%;
 }
