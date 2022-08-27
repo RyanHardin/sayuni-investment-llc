@@ -2,6 +2,8 @@ import React from 'react'
 import image from '../assets/SAYUNI INVESTMENTS LLC.jpg'
 import './Home.css'
 import { useNavigate } from 'react-router-dom'
+import Button from 'react-bootstrap/Button'
+
 function Home() {
     const navigate = useNavigate();
     return (
@@ -13,9 +15,9 @@ function Home() {
                 <h1>Home Selling</h1>
                 <h2>Solutions</h2>
                 <h3>We make the property selling experience as easy as possible!</h3>
-                <button onClick={() => navigate('/contact')}>
+                <Button variant="custom" size="lg" type="submit" onClick={() => navigate('/contact')}>
                     Contact Us
-                </button>
+                </Button>
             </div>
         </div>
     )

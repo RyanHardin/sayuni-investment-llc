@@ -1,7 +1,7 @@
 import React from 'react'
 import gavel from '../assets/Gavel.png'
 import './About.css'
-
+import Button from 'react-bootstrap/Button'
 function About() {
     return (
         <div className='about'>
@@ -24,7 +24,9 @@ function About() {
                         most homeowner in America faces whether your family is going through foreclosure, reposition or just simply want to sell or you can't sell
                         your house, or any other reason; let us easy your mind for we are here to help navigate through it at easy. You have nothing to lose just
                         contact us at (256) 384. 8887</p>
-                    <button>Fill out the form and click submit</button>
+                    <Button variant="custom" size="lg" type="submit">
+                        Fill out the form and click submit
+                    </Button>
                 </div>
             </div>
             <div className='bottom'>
