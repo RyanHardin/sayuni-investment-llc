@@ -1,7 +1,7 @@
 import React from 'react'
 import gavel from '../assets/Gavel.png'
 import './About.css'
-
+import Button from 'react-bootstrap/Button'
 function About() {
     return (
         <div className='about'>
@@ -13,7 +13,7 @@ function About() {
                 </p>
             </div>
             <div className='about-us'>
-                <img src={gavel} alt='gavel' style={{ maxWidth: '80%', maxHeight: '600px' }}></img>
+                <img src={gavel} alt='gavel' style={{ maxWidth: '100%', maxHeight: '600px' }}></img>
                 <div>
                     <p>If you are thinking of selling or are looking to sell your property, we can help you get a quick and hassle-free cash offer. We buy multifamily,
                         apartment homes and single-family homes in any condition.
@@ -24,7 +24,9 @@ function About() {
                         most homeowner in America faces whether your family is going through foreclosure, reposition or just simply want to sell or you can't sell
                         your house, or any other reason; let us easy your mind for we are here to help navigate through it at easy. You have nothing to lose just
                         contact us at (256) 384. 8887</p>
-                    <button>Fill out the form and click submit</button>
+                    <Button variant="custom" size="lg" type="submit">
+                        Fill out the form and click submit
+                    </Button>
                 </div>
             </div>
             <div className='bottom'>

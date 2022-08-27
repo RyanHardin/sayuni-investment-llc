@@ -1,0 +1,16 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+Form {
+    width: 50%;
+    margin: 25px 0px;
+}
+
+
+.btn-custom {
+    color: white;
+    background-color: #A4865D;
+}

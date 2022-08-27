@@ -4,7 +4,7 @@
     justify-content: center;
     margin-top: 10px;
     height: 80%;
-    width: 80%;
+    width: 100%;
 }
 
 .home > div {
@@ -32,10 +32,9 @@
     font-size: 200%;
 }
 
-.info-item > button {
+.info-item > .btn-custom {
     color: white;
     background-color: #A4865D;
-    font-size: large;
     width: 50%;
     height: 10%;
     letter-spacing: 5px;
