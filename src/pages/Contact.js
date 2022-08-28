@@ -7,6 +7,7 @@ import './Contact.css'
 function Contact() {
     return (
         <Form>
+            <Form.Label size="lg">Drop us a line!</Form.Label>
             <Form.Group className="mb-3" controlId="formBasicName">
                 <Form.Control type="name" size='lg' placeholder="Name" />
             </Form.Group>
