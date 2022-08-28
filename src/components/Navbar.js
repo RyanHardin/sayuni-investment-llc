@@ -1,25 +1,39 @@
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Offcanvas from 'react-bootstrap/Offcanvas';
 import React from 'react'
-import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+function NavBar() {
     return (
-        <nav className='nav'>
-            <ul>
-                <li>
-                    <Link to='/'>Home</Link>
-                </li>
-                <li>
-                    <Link to='/about'>About Us</Link>
-                </li>
-                <li>
-                    <Link to='/contact'>Contact Us</Link>
-                </li>
-                <li>
-                    <Link to='/gallery'>Gallery</Link>
-                </li>
-            </ul>
-        </nav>
-    )
+        <>
+            <Navbar key={'md'} bg="dark" variant="dark" expand={'md'} className="mb-3 navbar" fixed='top'>
+                <Container fluid>
+                    <Navbar.Brand href="/">Sayuni Investment LLC</Navbar.Brand>
+                    <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'md'}`} />
+                    <Navbar.Offcanvas
+                        id={`offcanvasNavbar-expand-${'md'}`}
+                        aria-labelledby={`offcanvasNavbarLabel-expand-${'md'}`}
+                        placement="end"
+                    >
+                        <Offcanvas.Header closeButton>
+                            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${'md'}`}>
+                                Offcanvas
+                            </Offcanvas.Title>
+                        </Offcanvas.Header>
+                        <Offcanvas.Body>
+                            <Nav className="justify-content-end flex-grow-1 pe-3">
+                                <Nav.Link href="/">Home</Nav.Link>
+                                <Nav.Link href="/about">About Us</Nav.Link>
+                                <Nav.Link href="/contact">Contact</Nav.Link>
+                                <Nav.Link href="/gallery">Gallery</Nav.Link>
+                            </Nav>
+                        </Offcanvas.Body>
+                    </Navbar.Offcanvas>
+                </Container>
+            </Navbar>
+        </>
+    );
 }
 
-export default Navbar
+export default NavBar;
