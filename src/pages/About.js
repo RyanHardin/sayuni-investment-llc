@@ -24,7 +24,7 @@ function About() {
                         We are family based real estate solution company that focuses on helping North Alabamians like you to find solution for the problems that
                         most homeowner in America faces whether your family is going through foreclosure, reposition or just simply want to sell or you can't sell
                         your house, or any other reason; let us easy your mind for we are here to help navigate through it at easy. You have nothing to lose just
-                        contact us at (256) 384. 8887</p>
+                        contact us at <strong>(256) 384. 8887</strong></p>
                     <Button variant="custom" size="lg" type="submit">
                         Fill out the form and click submit
                     </Button>
