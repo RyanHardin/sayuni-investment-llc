@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Content from './components/Content';
 import React from 'react'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -9,9 +10,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Content />
-      <footer>
-        <p>COPYRIGHT © 2022 SAYUNI INVESTMENT INC LLC - ALL RIGHTS RESERVED.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

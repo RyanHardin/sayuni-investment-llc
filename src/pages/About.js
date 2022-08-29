@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button'
 function About() {
     return (
         <div className='about'>
+            <h2>About Us</h2>
             <div className='our-team'>
                 <p>We are a family based local real estate buying and
                     housing solution focusing on buying, renovating and renting homes
@@ -30,8 +31,32 @@ function About() {
                 </div>
             </div>
             <div className='bottom'>
-                <img src={require('../assets/About Photo1.png')} alt="House"></img>
-                <img src={require('../assets/About Photo2.png')} alt="Writing"></img>
+                <figure>
+                    <img id='photo1' src={require('../assets/About Photo1.png')} alt="House"></img>
+                    <figcaption>
+                        <h3>
+                            Let us help you...
+                        </h3>
+                        <p>
+                            We buy houses in <strong>ANY CONDITION</strong> in North America. There are no fees and no obligation.
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img id='photo2' src={require('../assets/About Photo2.png')} alt="House"></img>
+                    <figcaption>
+                        <h3>
+                            Find a solution to fit your situation
+                        </h3>
+                        <p>
+                            We are focused on helping North Alabamians like you to find
+                            solution for the problems that most homeowner in America
+                            faces whether your family is going through foreclosure,
+                            reposition or just simply want to sell or you can't sell your
+                            house, or any other reasor
+                        </p>
+                    </figcaption>
+                </figure>
             </div>
         </div>
     )
