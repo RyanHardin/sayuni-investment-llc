@@ -1,7 +1,7 @@
 .about {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
 }
 
 .our-team {
@@ -15,7 +15,7 @@
     text-align: center;
     inline-size: 50%;
     padding: 25px;
-    width: 100%;
+    width: 60%;
 }
 
 .about-us {
@@ -34,13 +34,13 @@
     background-color: #FBF2EB;
     align-items: center;
     width: 100%;
+    padding: 25px;
 }
 
 .about-us > div > p {
     color: #858381;
     font-size: 20px;
     text-align: center;
-    padding: 10px;
 }
 
 .about-us > div > button {
@@ -55,11 +55,24 @@
 
 .bottom {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding-top: 50px;
+    padding: 50px 0px;
 }
 
-.bottom > img {
-    width: 45%;
+.bottom > figure {
+    width: 48%;
+}
+
+.bottom > figure > img {
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+}
+
+.bottom > figure > figcaption {
+    background-color: #FBF2EB;
+    color: black;
+    width: 100%;
+    color: #858381;
+    padding: 10px;
 }
