@@ -10,7 +10,7 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_7oz1xrf', 'template_e9y2bzs', form.current, 'RJa_rXlJkZng5ibKs')
+        emailjs.sendForm('service_sayuni', 'sayuni_template', form.current, 'RJa_rXlJkZng5ibKs')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
